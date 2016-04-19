@@ -19,9 +19,14 @@ Linear Regression is then used to calculate a Hypothesis function, g(x). The fun
 The insample error, Ein.
 
 The experiment is repeated 1000 times, and the Average Ein is returned.
+
+1000 more data points are generated, and mapped using the orignal weights of the line. The points are tested against g(x), the experiemnt is 
+repeated 1000x times, and the average Eout is reported.
  
  
 Output:
 =======
+Average Ein = 0.04631000000000011
+Average Eout = 0.04712299999999999
 
         	
